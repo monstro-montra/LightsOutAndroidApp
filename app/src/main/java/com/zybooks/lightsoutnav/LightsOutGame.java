@@ -1,6 +1,7 @@
 package com.zybooks.lightsoutnav;
 
 import java.util.Random;
+//Model portion of MVC. makes up the game logic
 
 public class LightsOutGame {
     public static final int GRID_SIZE = 3;
@@ -22,6 +23,7 @@ public class LightsOutGame {
     }
 
     public boolean isLightOn(int row, int col) {
+
         return mLightsGrid[row][col];
     }
 
